@@ -1,0 +1,11 @@
+Supporte methods for rest api:
+
+GET mission - get all data from DB
+
+GET mission/mission-id - get data of mission id
+
+PUT mission/mission-id/{body} - create new data in DB , need to have all parameters
+
+PATCH mission/mission-id/{body} - change exist data in DB, can chage part of the fields
+
+DELETE mission/mission-id - delete all data of mission id from DB
